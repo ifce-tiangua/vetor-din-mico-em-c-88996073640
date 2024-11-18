@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 typedef int* tipo_vetor_dinamico;
 typedef unsigned int uint;
