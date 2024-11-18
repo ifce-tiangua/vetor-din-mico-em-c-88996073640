@@ -20,10 +20,11 @@ void apresentarDadosVetor(tipo_vetor_dinamico vetor, uint tamanho) {
     if (tamanho == 0) {
         printf("[vazio]\n");
     } else {
+        printf("[");
         for (uint i = 0; i < tamanho; i++) {
-            (i == 0) ? printf("%d", vetor[i]) : printf(" %d", vetor[i]);
+            (i == 0) ? printf("%d", vetor[i]) : printf(", %d", vetor[i]);
         }
-        printf("\n");
+        printf("]\n");
     }
 }
 
