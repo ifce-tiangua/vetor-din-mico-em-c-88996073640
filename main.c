@@ -3,7 +3,7 @@
 int main(){
 
     //insira aqui seu código
-    printf("Nao implementado ainda...");
+    printf("Testando <git push>\n");
 
     return 0;
 }
